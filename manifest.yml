@@ -1,0 +1,7 @@
+applications:
+- name: service-registry-io
+  instances: 1
+  memory: 660m
+  path: target/service-registry 0.0.1-SNAPSHOT
+  ##domain: cf-ws.io
+  #services:  #- PERSONAL
