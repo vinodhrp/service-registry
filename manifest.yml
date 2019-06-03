@@ -3,7 +3,7 @@ applications:
 - name: service-registry-io
   memory: 660MB
   instances: 1
-  host: service-registry-${random-word}
+  host: service-registry-io
   domain: cfapps.io
   path: target/service-registry-0.0.1-SNAPSHOT.jar
   env:
